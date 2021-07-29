@@ -1,0 +1,17 @@
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
+}
+
+.first {
+  display: none;
+}
+
+.second {
+  visibility: hidden;
+}
+
+.last {
+  visibility: visible;
+}
