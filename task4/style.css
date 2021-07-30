@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+div {
+}
+
 .text {
   margin: 16px;
   text-decoration: 1px dotted black;
@@ -10,8 +13,13 @@
 .tooltip {
   background-color: grey;
   color: white;
-  border-radius: 4px;
-  padding: 8px;
-  bottom: -40px;
-  display: inline-block;
+  visibility: hidden;
+  /* border-radius: 4px; */
+  /* padding: 8px; */
+  /* bottom: -40px; */
+}
+
+div:hover .tooltip {
+  background-color: grey;
+  color: white;
 }
