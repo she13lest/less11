@@ -8,11 +8,11 @@ body {
 
 .gallery {
   display: flex;
+  overflow: scroll;
 }
 
 .gallery:hover {
   cursor: all-scroll;
-  overflow: scroll;
 }
 
 .thumb {
