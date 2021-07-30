@@ -2,24 +2,22 @@
   box-sizing: border-box;
 }
 
-div {
+body {
+  display: flex;
 }
 
 .text {
   margin: 16px;
-  text-decoration: 1px dotted black;
+  border-bottom: 1px dotted #000;
+  display: flex;
+  position: relative;
 }
 
 .tooltip {
   background-color: grey;
   color: white;
-  visibility: hidden;
-  /* border-radius: 4px; */
-  /* padding: 8px; */
-  /* bottom: -40px; */
-}
-
-div:hover .tooltip {
-  background-color: grey;
-  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  position: absolute;
+  bottom: -40px;
 }
