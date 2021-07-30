@@ -12,9 +12,9 @@ body {
 
 .gallery:hover {
   cursor: all-scroll;
+  overflow: scroll;
 }
 
 .thumb {
   margin: 8px;
-  overflow: auto;
 }
