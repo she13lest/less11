@@ -3,19 +3,18 @@
 }
 
 body {
-  overflow: hidden;
-}
-
-.gallery {
-  overflow: auto;
   display: flex;
 }
 
-.thumb {
-  margin: 8px;
-  overflow-x: scroll;
+.gallery {
+  display: flex;
 }
 
 .gallery:hover {
   cursor: all-scroll;
+}
+
+.thumb {
+  margin: 8px;
+  overflow: auto;
 }
